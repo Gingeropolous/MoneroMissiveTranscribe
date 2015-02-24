@@ -1,0 +1,48 @@
+(music)
+FP:Hello and good morning, or evening to you, wherever you watch.  I am Riccardo, Fluffypony, and with me today I have Gingeropolous.  Say hi.
+
+G: Hello everyone!
+
+FP: And this is the start of a new type of Monero Missive because we realized, as a core team that preparing a full on Monero Missive with all its bits and pieces was taking up a lot of time and soaking up a lot of effort that would have been spent elsewhere.  And more importantly, we also realized a lot of people just weren't getting through the content of the Missives that we were putting out. Hence, this new format.  So Gingeropolous, you're reasonably well known already.  Why don't you tell us a little about you and your involvement with the Monero community.
+
+G: Sure.  I watched the Monero community on the forums and as there was no missives coming out people were like "Hey, why aren't there any missives?" And I was like "Alright well, I'm going to go ahead and make a version of them that sort of sums up what I saw happening in the community".  So that's where that whole digest came from, and I guess that digest caught the eye of the core developers and they contacted me and were like "hey do you wanna, uh, do this podcast?" And I guess the role or function is to try to bridge the gap between those that actually know what Jason is doing and those like me who don't know what Jason (json) is doing cause.. Jason is very popular.
+
+FP: (laughs) and you've even never met him.
+
+G: No, no I haven't and you know, well he's called. He's called a lot.  And his buddies RPC.
+
+FP: And API.
+
+G: API! API's a good guy. Yeah yeah. He does a lot.
+
+FP: Yeah, so you're the community liaison.  Let's call it that.
+
+G: Sure.
+
+FP: Ok, so today we're going to forgo the normal bits that we do at the end of the Missive, specifically we're going to skip the dev diary, we're going to skip the external projects, because there are three major things we needed to talk about.  Now for our listeners who are not english speaking, and they struggle to understand this, we are asking the community in their own time, when they get a chance, to transcribe some of the podcast content into written form so that it can be understood better and eventually translated but obviously it's not high priority and actually it's convenience if you have some time and feel like transcribing it, first one out the gate is always a winner.
+
+So what we'd like to concentrate on are three things and the first thing we're going to talk about is the new website which..
+
+G: Yayy!
+
+FP: Heh, it's only been like, a year, in production. It's been.. There's been a great deal of effort that we've put into this and as everyone knows we started with a design that we built with quite early on which has been available in the forums for quite some time.  But one of the things that we wanted to do is really create a website that was accessible not just to hardcore Monero fans, or existing users, but to new people that wanted to know what is Monero, what does it do, how can I use it, you know, how can I do simple things - how can I accept payments with Monero? How can I use Monero? How can I run a node if eventually understand what a node is.  And, so, we've created this website.  And, along with the creation of the website we felt it prudent to move away from the monero.cc domain which has served us well but it's time for us to move to something that is a little better suited.  So we are moving to getmonero.org which has a long standing tradition in the open source community.  FireFox when it launched also didn't have Firefox.org so they ran with getfirefox.org for a very long time before eventually they started to get other domains that were donated.  So, it's the same with this.  The Monero.cc domain will forward to getmonero.org so nothing will change here. All the links, all subdomains or whatever that are on Monero.cc, carry on using them, it will automatically forward you through.
+
+G: Ok,Fantastic.
+
+FP: So, look, there are a couple of things that we've done on this website that I'd like to just point out.  The first thing is where we used terms that are a bit confusing or technical or perhaps.. what's the word I'm looking for.. where we use terms that are unfamiliar to new users like..
+
+G: Jargon.
+
+FP: Yeah, Jargon, you know like, like, even something like blockchain.  Or transaction.  Transaction has a familiarity to us because we use cryptocurrency but a transaction like a credit card transaction is very different to a transaction in digital or cryptocurrency terms.  So, you cant, we can't make assumptions about what people know.  So part of this is we've created something called Moneropedia.  Which, obviously, is like wikipedia for Monero.  And, there's still a lot of room to grow in terms of content.  There's a lot of content that needs to be added but you'll notice that certain things like, even on the front page, those three green blocks that explain the secure -- untraceable nature of Monero, you'll notice there are some words that have got slightly darker text, and when you hover them, or if you're on a mobile device when you tap on them, it actually gives you a little summary of that term.  So I can go over consensus, or accounts, or mnemonic seed, or blockchain, or transaction, and explains the term to you.  So, we're trying to create something that is accessible and that people don't get overwhelmed with tons of information.  We've created a lot of content, especially in the getting started section, that's pretty much done, which means people who want to accept Monero payments either by hand or programmatically there's plenty of information there.  And then in the knowledgebase, there's still a lot of stuff we are working on in terms of content.  But Moneropedia, we've already started filling in a lot of that.  And the source code for the website is in our Github repository, and so you can go take a look at it, you can look at the way everything is put together.  It's all markdown, processed through a system called Jekyl, which is what GitHub pages uses.  And so you can take a look at the existing Moneropedia entries for example, and take a look at the existing Moneropedia entry for "account" to see how we've structured everything in the Markdown.  And you know, if you want to contribute content, if you want to help out by adding entries or correcting mistakes we've made, please, please do so.
+
+G: Oh, awesome, so there's a way for the community to contribute to this, that's awesome.
+
+FP: Exactly, yeah.  So, along with that there's also, you know, we haven't forgotten about internationalization.  You'll notice that, when you hit the website for the first time, you'll have to choose a language.  And at the moment the only language is english.  The reason we haven't bolted down other languages just yet is we want to first flesh out the english content and everything is pretty much ready for us to start adding other languages.  But, you know, we just want to get the english sorted first and then we'll do core(?) translations and we'll have strings up on Trancefx that people can translate.
+
+G: Cool.
+
+FP: Yeah, on the Monero project GitHub there's a Monero site repository and if you notice any issues, if you notice dead links or anything like that you can open an issue on Github.  If there's anything you want to change or add or whatever then you can clone the repository and fix it on your side and then submit a pull request which is the same way we work with all of the other projects.  So one of the reasons we went this road instead of more traditional wiki way where anyone can edit it and so on is because the Git and Github, by extension, format for dealing with changes is just a lot more geared towards consensus.  At least, you know, that's what we feel. So, for example, if somebody wanted to make a change for an article done in Moneropedia they'd make the change and submit it as a pull request, and then there's a whole commenting section where the community can back and forward with 
+
+(00:07:34)
+
+
